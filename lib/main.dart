@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Material App',
       home: HomePage(),
+      debugShowCheckedModeBanner: false,
       // routerConfig: router,
     );
   }
